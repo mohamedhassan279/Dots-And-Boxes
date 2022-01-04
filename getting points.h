@@ -9,7 +9,7 @@ int read_point()
 	int s;
 	if (length == 1)
 	{
-		if (getstr[0] >= 48 && getstr[0] < 57)
+		if (getstr[0] >= 48 && getstr[0] <= 57)
 		{
 			s = getstr[0] - 48;
 			return s;
