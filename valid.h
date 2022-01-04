@@ -1,7 +1,7 @@
 #ifndef VALID_H_INCLUDED
 #define VALID_H_INCLUDED
-// check if the move is valid using 4 functions
 
+// check if the move is valid using 4 functions
 // first function to check if the points in borders of the grid
 bool inside_grid(int x1, int y1, int x2, int y2, int n, char grid[3 *n + 2][5 *n + 3])
 {
@@ -54,8 +54,5 @@ bool valid_move(int x1, int y1, int x2, int y2, int n, char grid[3 *n + 2][5 *n 
 		return true;
 	return false;
 }
-
-
-
 
 #endif // VALID_H_INCLUDED
