@@ -51,5 +51,4 @@ int single_or_double_mode()
 
 }
 
-
 #endif // CURRENT_MODE_H_INCLUDED
