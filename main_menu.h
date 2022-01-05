@@ -74,6 +74,4 @@ int main_menu()
 	return s;
 }
 
-
-
 #endif // MAIN_MENU_H_INCLUDED
