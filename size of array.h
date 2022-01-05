@@ -80,5 +80,4 @@ int size_of_array()
 	return n;
 }
 
-
 #endif // SIZE_OF_ARRAY_H_INCLUDED
