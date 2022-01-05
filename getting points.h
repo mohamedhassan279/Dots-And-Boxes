@@ -1,5 +1,6 @@
 #ifndef GETTING_POINTS_H_INCLUDED
 #define GETTING_POINTS_H_INCLUDED
+
 int read_point()
 {
 	char getstr[MAX];
@@ -24,8 +25,5 @@ int read_point()
 		return -1;
 	}
 }
-
-
-
 
 #endif // GETTING_POINTS_H_INCLUDED
