@@ -131,7 +131,65 @@ int game(int n_undo, int counter, int n, int mode, char grid[3 *n + 2][5 *n + 3]
                 }
             }
 
-            
+            if (row1 == 3 && col1 == 3 && row2 == 3 && col2 == 3)	//save
+            {
+                int no_save;
+                if (turn == 1)
+                    printf(RED);
+                else if (turn == 2)
+                    printf(BLUE);
+                printf("Save game to file number 1 or 2 or 3\n");
+                while (1)
+                {
+                    no_save = read_point();
+                    if (no_save == 1 || no_save == 2 || no_save == 3)
+                    {
+                        time_t currenttime;
+                        int current = time(&currenttime);
+                        l_t = current - t;
+
+                        char save_name[9];
+                        sprintf(save_name, "%dsave.txt", no_save);
+
+                        FILE *save = fopen(save_name, "w");
+                        fwrite(&l_t, sizeof(int), 1, save);
+                        fwrite(&counter, sizeof(int), 1, save);
+                        fwrite(&n_undo, sizeof(int), 1, save);
+                        fwrite(&n, sizeof(int), 1, save);
+                        fwrite(&mode, sizeof(int), 1, save);
+                        fwrite(&no_moves, sizeof(int), 1, save);
+                        fwrite(&player1.nmoves, sizeof(int), 1, save);
+                        fwrite(&player2.nmoves, sizeof(int), 1, save);
+                        fwrite(&player1.score, sizeof(int), 1, save);
+                        fwrite(&player2.score, sizeof(int), 1, save);
+                        fwrite(&turn, sizeof(int), 1, save);
+                        fwrite(&tc, sizeof(int), 1, save);
+                        fwrite(moves, sizeof(int), (2 *n *(n + 1)) *6, save);
+                        fwrite(&ind, sizeof(int), 1, save);
+                        fwrite(complete_array, sizeof(int), n *n, save);
+                        fwrite(inverse_uarray, sizeof(int), n *n, save);
+                        fwrite(&complete_turn, sizeof(int), 1, save);
+                        fwrite(&complete_tc, sizeof(int), 1, save);
+                        fwrite(grid, sizeof(char), (3 *n + 2) *(5 *n + 3), save);
+                        fwrite(&player1.name_len, sizeof(int), 1, save);
+                        fwrite(&player1.name, sizeof(char), player1.name_len, save);
+                        fwrite(&player2.name_len, sizeof(int), 1, save);
+                        fwrite(&player2.name, sizeof(char), player2.name_len, save);
+                        fclose(save);
+                        system("cls");
+                        printf("saved to %dsave.txt\n" COLOR_RESET, no_save);
+                        fprintf(debug, "\nsaved to %dsave.txt", no_save);
+                        show_grid(n, grid, moves, no_moves, mode, n_lines, t);
+                        break;
+                    }
+                    else
+                    {
+                        printf("Not existing file\n");
+                    }
+                }
+
+                continue;
+            }
 
             if (row1 == 0 && col1 == 0 && row2 == 0 && col2 == 0)	// to go back to main menu
             {
@@ -364,7 +422,59 @@ int game(int n_undo, int counter, int n, int mode, char grid[3 *n + 2][5 *n + 3]
                     printf(COLOR_RESET);
                 }
 
-                
+                if (row1 == 3 && col1 == 3 && row2 == 3 && col2 == 3)	//save
+                {
+                    int no_save;
+                    printf(RED "Save game to file number 1 or 2 or 3\n");
+                    while (1)
+                    {
+                        no_save = read_point();
+                        if (no_save == 1 || no_save == 2 || no_save == 3)
+                        {
+                            time_t currenttime;
+                            int current = time(&currenttime);
+                            l_t = current - t;
+
+                            char save_name[9];
+                            sprintf(save_name, "%dsave.txt", no_save);
+
+                            FILE *save = fopen(save_name, "w");
+                            fwrite(&l_t, sizeof(int), 1, save);
+                            fwrite(&counter, sizeof(int), 1, save);
+                            fwrite(&n_undo, sizeof(int), 1, save);
+                            fwrite(&n, sizeof(int), 1, save);
+                            fwrite(&mode, sizeof(int), 1, save);
+                            fwrite(&no_moves, sizeof(int), 1, save);
+                            fwrite(&player1.nmoves, sizeof(int), 1, save);
+                            fwrite(&player2.nmoves, sizeof(int), 1, save);
+                            fwrite(&player1.score, sizeof(int), 1, save);
+                            fwrite(&player2.score, sizeof(int), 1, save);
+                            fwrite(&turn, sizeof(int), 1, save);
+                            fwrite(&tc, sizeof(int), 1, save);
+                            fwrite(moves, sizeof(int), (2 *n *(n + 1)) *6, save);
+                            fwrite(&ind, sizeof(int), 1, save);
+                            fwrite(complete_array, sizeof(int), n *n, save);
+                            fwrite(inverse_uarray, sizeof(int), n *n, save);
+                            fwrite(&complete_turn, sizeof(int), 1, save);
+                            fwrite(&complete_tc, sizeof(int), 1, save);
+                            fwrite(grid, sizeof(char), (3 *n + 2) *(5 *n + 3), save);
+                            fwrite(&player1.name_len, sizeof(int), 1, save);
+                            fwrite(&player1.name, sizeof(char), player1.name_len, save);
+                            fclose(save);
+                            system("cls");
+                            printf(CYAN "saved to %dsave.txt\n" COLOR_RESET, no_save);
+                            fprintf(debug, "\nsaved to %dsave.txt", no_save);
+                            show_grid(n, grid, moves, no_moves, mode, n_lines, t);
+                            break;
+                        }
+                        else
+                        {
+                            printf(RED "Not existing file\n");
+                        }
+                    }
+
+                    continue;
+                }
 
                 if (row1 == 0 && col1 == 0 && row2 == 0 && col2 == 0)	// to go back to main menu
                 {
