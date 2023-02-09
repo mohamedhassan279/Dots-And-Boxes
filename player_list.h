@@ -3,11 +3,11 @@
 
 typedef struct
 {
-	int name_len;
-	char name[MAX];
-	int score;
+    int name_len;
+    char name[MAX];
+    int score;
 
-}gamer;
+} gamer;
 
 gamer winners_list[MAX] = {0};
 

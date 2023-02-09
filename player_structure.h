@@ -3,12 +3,12 @@
 
 typedef struct
 {
-	int name_len;
-	char name[MAX];
-	int score;
-	int nmoves;
+    int name_len;
+    char name[MAX];
+    int score;
+    int nmoves;
 
-}player;
+} player;
 
 player player1 = {0, ' ', 0, 0};
 player player2 = {0, ' ', 0, 0};

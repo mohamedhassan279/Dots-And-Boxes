@@ -12,7 +12,6 @@ void show_grid(int n, char arr[3 *n + 2][5 *n + 3], int moves[2 *n *(n + 1)][6],
     printf("\t\t\t\t\t\t");
     int i, j;
 
-
     for (i = 0; i < (5 *n + 3); i++)
     {
         printf("%c", arr[0][i]);

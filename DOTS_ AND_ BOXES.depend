@@ -1,0 +1,197 @@
+# depslib dependency file v1.0
+1641162274 source:c:\users\mahmoud\desktop\dots_ and_ boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<time.h>
+	"player_structure.h"
+	"player_list.h"
+	"score sorting.h"
+	"main_menu.h"
+	"show grid.h"
+	"getting points.h"
+	"valid.h"
+	"complete box.h"
+	"the moving.h"
+	"current mode.h"
+	"computer function.h"
+	"size of array.h"
+	"undo and redo.h"
+	"game loop.h"
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\player_structure.h
+
+1640913584 c:\users\mahmoud\desktop\dots_ and_ boxes\player_list.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\score sorting.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\main_menu.h
+
+1640913465 c:\users\mahmoud\desktop\dots_ and_ boxes\show grid.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\getting points.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\valid.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\complete box.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\the moving.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\current mode.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\computer function.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\size of array.h
+
+1640913466 c:\users\mahmoud\desktop\dots_ and_ boxes\undo and redo.h
+
+1641083356 c:\users\mahmoud\desktop\dots_ and_ boxes\game loop.h
+
+1641162276 source:c:\users\dell\onedrive\desktop\dots_ and_ boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<time.h>
+	"player_structure.h"
+	"player_list.h"
+	"score sorting.h"
+	"main_menu.h"
+	"show grid.h"
+	"getting points.h"
+	"valid.h"
+	"complete box.h"
+	"the moving.h"
+	"current mode.h"
+	"computer function.h"
+	"size of array.h"
+	"undo and redo.h"
+	"game loop.h"
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\player_structure.h
+
+1640913586 c:\users\dell\onedrive\desktop\dots_ and_ boxes\player_list.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\score sorting.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\main_menu.h
+
+1640913466 c:\users\dell\onedrive\desktop\dots_ and_ boxes\show grid.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\getting points.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\valid.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\complete box.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\the moving.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\current mode.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\computer function.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\size of array.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots_ and_ boxes\undo and redo.h
+
+1641083358 c:\users\dell\onedrive\desktop\dots_ and_ boxes\game loop.h
+
+1641254791 source:c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<time.h>
+	"player_structure.h"
+	"player_list.h"
+	"score sorting.h"
+	"main_menu.h"
+	"show grid.h"
+	"getting points.h"
+	"valid.h"
+	"complete box.h"
+	"the moving.h"
+	"current mode.h"
+	"computer function.h"
+	"size of array.h"
+	"undo and redo.h"
+	"game loop.h"
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\player_structure.h
+
+1640913586 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\player_list.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\score sorting.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\main_menu.h
+
+1640913466 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\show grid.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\getting points.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\valid.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\complete box.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\the moving.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\current mode.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\computer function.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\size of array.h
+
+1640913468 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\undo and redo.h
+
+1641253399 c:\users\dell\onedrive\desktop\dots and boxes\dots_ and_ boxes\game loop.h
+
+1641735507 source:c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<time.h>
+	"player_structure.h"
+	"player_list.h"
+	"score sorting.h"
+	"main_menu.h"
+	"show grid.h"
+	"getting points.h"
+	"valid.h"
+	"complete box.h"
+	"the moving.h"
+	"current mode.h"
+	"computer function.h"
+	"size of array.h"
+	"undo and redo.h"
+	"game loop.h"
+
+1641427905 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\player_structure.h
+
+1641427898 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\player_list.h
+
+1641427912 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\score sorting.h
+
+1641427888 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\main_menu.h
+
+1641679254 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\show grid.h
+
+1641427882 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\getting points.h
+
+1641658837 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\valid.h
+
+1641427831 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\complete box.h
+
+1641427938 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\the moving.h
+
+1641427853 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\current mode.h
+
+1641427840 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\computer function.h
+
+1641427931 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\size of array.h
+
+1641427944 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\undo and redo.h
+
+1641693941 c:\users\dell\onedrive\desktop\project\dots_ and_ boxes\game loop.h
+
